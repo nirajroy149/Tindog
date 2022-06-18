@@ -1,0 +1,185 @@
+body{
+    font-family:'Montserrat';
+    text-align: center; 
+
+}
+p{
+    color: #8f8f8f;
+}
+
+.btn{
+    margin: 5% 3% 5% 0%;
+}
+
+/* Section Background and text color */
+
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+/* Title */
+
+#title{
+    padding: 3% 15% 7%; 
+    text-align: left;
+}
+
+#title h1{
+    font-family: 'Montserrat-Black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bolder;  
+}
+
+
+
+/* Title Image */
+
+.title-image{   
+    width: 23%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 26%;
+} 
+
+
+
+/* Title: Navigation Bar */
+
+.navbar{
+    padding: 0;
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family:'Montserrat-light', sans-serif; 
+   
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+
+
+/* Feature Styling */
+
+#features{
+    padding: 7% 15%;
+    position: relative;
+}
+
+.fa-check-circle, .fa-bullseye, .fa-heart{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.fa-check-circle:hover, .fa-bullseye:hover, .fa-heart:hover{
+    color: #ff4c68; 
+}
+
+.fe-check{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+
+.fe-dis{
+    line-height: 2;
+    width: 70%;
+    margin: auto;
+    color: #8f8f8f;
+}
+
+#features .col-lg-4{
+    margin: 2% auto 2% auto;
+}
+
+/* Testimonial  */
+
+#testimonials{
+    background-color: #ef8172;
+    padding: 5% 0 7%;
+}
+
+#testimonials img{
+    margin: 20px 10px;
+    width: 10%;
+    border-radius: 100%;
+}
+
+#testimonials h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder; 
+    width: 70%;
+    display: block;
+    margin: auto;
+    line-height: 1.5;
+}
+
+/* Press */
+
+#press{
+    background-color:  #ef8172;
+    padding-bottom: 5rem;
+}
+#press img{
+    width: 15%;
+    margin: auto 20px;
+}
+
+/* Pricing Cards */
+
+#pricing{
+    padding: 7%;
+}
+
+#pricing .btn{
+    width: 90%;
+}
+
+#pricing h2{
+    font-weight: bolder;
+}
+
+#pricing .card{
+    margin: 2% 3%;
+    margin-top: 50px;
+    padding: 2%;
+}
+
+/* Call to Action */
+
+#cta{
+    padding: 5% 7%;
+}
+
+#cta h3{
+    width: 72%;
+    margin: auto;
+    line-height: 2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+/* Footer */
+
+#footer{
+    padding: 7% 15%;
+}
+
+.footer-icon i{
+    margin: 20px 10px ;
+}
+
